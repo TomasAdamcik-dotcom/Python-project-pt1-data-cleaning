@@ -36,17 +36,17 @@ This project is split into two parts, data cleaning and visualisations. This is 
 
 1. Wrote down user stories based on project brief
 2. Extract what data fields are going to be needed to achieve customers requirements
-3. Grouped CSV and JSON files into two large CSV files 
-    a. Grouped each group (csv or json) files into dataframe 
-    b. Replaced '-' with '0' as some values in quantity column were not numbers 
-    c. Replaced quantity column that was saved in string format with duplicated quantity column that was converted to numbers 
+3. Grouped CSV and JSON files into two large CSV files:\
+    a. Grouped each group (csv or json) files into dataframe\
+    b. Replaced '-' with '0' as some values in quantity column were not numbers\
+    c. Replaced quantity column that was saved in string format with duplicated quantity column that was converted to numbers\
     d. Saved to .csv file
-4. Prepare diagrams and schemas for building datasets for final visualisations: 
-    a. Required columns:
+4. Prepare diagrams and schemas for building datasets for final visualisations:\
+    a. Required columns:\
 ![Required columns](/schemas/required_columns.JPG)
-    b. Diagram to show how data is going to be connected
-![Datasets connections](/schemas/data_connections.JPG)
-    c. Drafted how is the functionality of final script going to work. See wireframes below
+    b. Diagram to show how data is going to be connected:\
+![Datasets connections](/schemas/data_connections.JPG)\
+    c. Drafted how is the functionality of final script going to work. See wireframes below:\
 ![Data preparation wireframes](/schemas/data_preparation_schemas.jpg)
 5. Based on diagrams, I build script that grouped main sales datasets from previous step and then created four separate csv files for making visualisations.
 
