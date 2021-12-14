@@ -36,12 +36,12 @@ This project is split into two parts, data cleaning and visualisations. This is 
 
 1. Wrote down user stories based on project brief
 2. Extract what data fields are going to be needed to achieve customers requirements
-3. Grouped CSV and JSON files into two large CSV files
-    a. Grouped each group (csv or json) files into dataframe
-    b. Replaced '-' with '0' as some values in quantity column were not numbers
-    c. Replaced quantity column that was saved in string format with duplicated quantity column that was converted to numbers
+3. Grouped CSV and JSON files into two large CSV files 
+    a. Grouped each group (csv or json) files into dataframe 
+    b. Replaced '-' with '0' as some values in quantity column were not numbers 
+    c. Replaced quantity column that was saved in string format with duplicated quantity column that was converted to numbers 
     d. Saved to .csv file
-4. Prepare diagrams and schemas for building datasets for final visualisations:
+4. Prepare diagrams and schemas for building datasets for final visualisations: 
     a. Required columns:
 ![Required columns](/schemas/required_columns.JPG)
     b. Diagram to show how data is going to be connected
